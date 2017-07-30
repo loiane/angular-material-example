@@ -1,0 +1,5 @@
+{
+  "vsicons.associations.files": [
+    { "icon": "ng_routing_ts",  "extensions": ["home-routing.module.ts"], "filename": true, "format": "svg" },
+  ]
+}
