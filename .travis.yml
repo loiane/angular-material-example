@@ -12,10 +12,10 @@ before_script:
   - npm install -g --silent @angular/cli
 
 script:
-  - ng build --prod
+  - ng build --prod --aot
 
 after_success:
-  - test $TRAVIS_BRANCH = "master" && firebase deploy --token $FIREBASE_TOKEN
+  - test $TRAVIS_BRANCH = "master" && firebase deploy --token $FIREBASE_TOKEN --non-interactive
 
 notifications:
   email:
