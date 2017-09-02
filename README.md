@@ -1,4 +1,4 @@
-# AngularMaterialExample
+# AngularMaterialExample.
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/loiane/angular-material-example.svg)](https://greenkeeper.io/)
 
