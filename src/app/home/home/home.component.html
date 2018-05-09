@@ -1,40 +1,40 @@
-<md-toolbar color="primary">
-  <button md-icon-button [mdMenuTriggerFor]="menu">
-    <md-icon>more_vert</md-icon>
+<mat-toolbar color="primary">
+  <button mat-icon-button [matMenuTriggerFor]="menu">
+    <mat-icon>more_vert</mat-icon>
   </button>
   <span>Angular Material Example</span>
 
-  <md-menu #menu="mdMenu">
-    <button md-menu-item>
-    <md-icon>dialpad</md-icon>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>
+    <mat-icon>dialpad</mat-icon>
     <span>Menu 1</span>
   </button>
-    <button md-menu-item disabled>
-    <md-icon>voicemail</md-icon>
+    <button mat-menu-item disabled>
+    <mat-icon>voicemail</mat-icon>
     <span>Menu 2</span>
   </button>
-    <button md-menu-item>
-    <md-icon>notifications_off</md-icon>
+    <button mat-menu-item>
+    <mat-icon>notifications_off</mat-icon>
     <span>Menu 3</span>
   </button>
-  </md-menu>
-</md-toolbar>
+  </mat-menu>
+</mat-toolbar>
 
 
-<md-card class="example-card">
-  <md-card-header>
-    <div md-card-avatar class="example-header-image"></div>
-    <md-card-title>Angular</md-card-title>
-    <md-card-subtitle>Material 2</md-card-subtitle>
-  </md-card-header>
-  <img md-card-image src="http://loiane.com/images/tags/angular.svg" height="300px">
-  <md-card-content>
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>Angular</mat-card-title>
+    <mat-card-subtitle>Material 2</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg" height="300px">
+  <mat-card-content>
     <p>
       Material Design components for Angular
     </p>
-  </md-card-content>
-  <md-card-actions>
-    <button md-button>LIKE</button>
-    <button md-button>SHARE</button>
-  </md-card-actions>
-</md-card>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>

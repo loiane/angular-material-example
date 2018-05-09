@@ -42,3 +42,4 @@ testem.log
 Thumbs.db
 
 .vscode/angulardoc.json
+.angulardoc.json
